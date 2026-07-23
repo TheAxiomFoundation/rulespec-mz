@@ -1,0 +1,7 @@
+# Known validation gaps ratchet for rulespec-co.
+#
+# Exact combined validator + independently executed companion failures,
+# keyed by module path. Entries are a floor to burn down, never to grow;
+# the supervised waiver audit enforces the schema and the decrement-only
+# ratchet. The repo currently has no waived failures.
+validate_failures: {}

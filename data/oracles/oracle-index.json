@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-07-23",
+  "jurisdiction": "mz",
+  "focus": "Mozambican tax-benefit surface: IRPS personal income tax (schedules 1 and 3), the ISPC simplified small-taxpayer tax, INSS social insurance contributions, VAT and excises, PSSB and INAS direct social support.",
+  "purpose": "Household-level comparison-oracle and supporting-source references for Mozambique Axiom coverage. None of these are legal authority.",
+  "oracle_scope": "A RuleSpec oracle must be an executable, pinned external calculator that accepts household-level inputs and returns household-level tax-benefit outputs comparable to Axiom outputs. Aggregate simulators, distributional reports, parameter documentation, and public model summaries are supporting references only, not oracles.",
+  "oracles": [
+    {
+      "id": "mozmod",
+      "name": "MOZMOD",
+      "url": "https://www.wider.unu.edu/project/southmod-simulating-tax-and-benefit-policies-development",
+      "local_path": "~/.axiom/oracles/southmod/bundle/ (licensed, non-redistributable; never committed)",
+      "commit": null,
+      "model": "MOZMOD v3.1 (SOUTHMOD; EUROMOD platform)",
+      "dataset": "IOF-based input microdata (shipped with the licensed bundle where included)",
+      "role": "Household-level tax-benefit comparison oracle for Mozambique. Policy years 2015-24. Report CR-MOZMOD-v3.1 (UNU-WIDER).",
+      "coverage": [
+        "irps_personal_income_tax",
+        "ispc_simplified_tax",
+        "inss_sics",
+        "vat",
+        "excise_ice",
+        "fuel_tax",
+        "pssb_basic_social_subsidy",
+        "inas_direct_social_support",
+        "household_disposable_income"
+      ],
+      "authority": "wiring_pending",
+      "availability_check": {
+        "checked_at": "2026-07-23",
+        "status": "wiring_pending",
+        "detail": "The locally held licensed SOUTHMOD bundle (EUROMOD runtime proven on the Ghana and Rwanda lanes) must be inventoried for MOZMOD MZ systems before wiring. Validation frame: MOZMOD v3.1, policy years 2015-24."
+      },
+      "bundle_sha256": null
+    }
+  ]
+}

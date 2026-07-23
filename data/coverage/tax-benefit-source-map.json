@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-23",
+  "jurisdiction": "mz",
+  "validation_year": "MOZMOD v3.1 (policy years 2015-24; report CR-MOZMOD-v3.1)",
+  "note": "MOZMOD active-instrument map to governing Mozambican law. Instrument keys are the model's EUROMOD-convention policy names (structure metadata only; no licensed content). Source URLs are hunting grounds, not captured provenance - capture happens in axiom-corpus manifests.",
+  "instruments": [
+    {"instrument": "tin_s (IRPS personal income tax, schedules 1 and 3)", "governing_law": "Codigo do IRPS (Lei 33/2007, tranche-2) as revised by Lei 20/2013 (incl. Art. 65-A)", "corpus_citation_path": "mz/statute/lei-2013-20/irps-revisao"},
+    {"instrument": "ttn_s (ISPC simplified small-taxpayer tax)", "governing_law": "Lei 5/2009 de 12 de Janeiro (75.000,00MT annual or 3% of turnover)", "corpus_citation_path": "mz/statute/lei-2009-5/ispc-imposto-simplificado"},
+    {"instrument": "tscee_s / tscer_s / tscse_s (INSS SICs: 7% = 4 er + 3 ee; self-employed 7%)", "governing_law": "Lei 4/2007 (Lei da Proteccao Social; obligatory-system contribution regulations = tranche-2)", "corpus_citation_path": "mz/statute/lei-2007-4/proteccao-social"},
+    {"instrument": "tva_s (VAT 17% through 2022, 16% from 2023)", "governing_law": "Codigo do IVA (Lei 32/2007, tranche-2) as revised by Lei 3/2012; the 2023 rate instrument = tranche-2", "corpus_citation_path": "mz/statute/lei-2012-3/iva-revisao"},
+    {"instrument": "tex02_s (excise ICE) / tfl_s (fuel tax)", "governing_law": "Lei 17/2009 ICE and fuel-tax instruments (tranche-2 captures)", "corpus_citation_path": null},
+    {"instrument": "bsa_s (PSSB basic social subsidy; INAS direct social support)", "governing_law": "Lei 4/2007 basic-security subsystem; Decreto 85/2009 and INAS program instruments (tranche-2 captures)", "corpus_citation_path": "mz/statute/lei-2007-4/proteccao-social"}
+  ]
+}
