@@ -4,3 +4,6 @@ __pycache__/
 .ruff_cache/
 *.pyc
 codex-gpt-5.5/
+
+# Supervisor run logs are local working artifacts, never canonical content
+.axiom/run-logs/
