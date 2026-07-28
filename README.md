@@ -23,3 +23,11 @@ Policy must come from the furthest upstream available source: Boletim da Repúbl
 ## Parity program
 
 Tracked on issue #1: tranche-2 captures (Lei 33/2007 Código do IRPS; Lei 32/2007 Código do IVA; Lei 17/2009 ICE; the 2023 VAT-rate instrument; Decreto 85/2009 PSSB regulation; INAS program instruments) and MOZMOD parity tests per instrument.
+
+## Listing gates
+
+This repo carries `app_visibility = "experimental"` in `.axiom/registry.toml` and stays out of app surfaces until:
+
+1. The encoded surface covers the flagship calculation (IRPS gross-to-net for a formal employee) end to end with companion tests.
+2. Oracle parity suites exist and pass against MOZMOD for the encoded surface.
+3. Citation paths are stable (lei/decreto-number form against the Boletim da República prints).
